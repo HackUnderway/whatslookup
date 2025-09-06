@@ -19,9 +19,14 @@
 ## 🚀 Características
 
 - Obtención de fotos de perfil de WhatsApp mediante número de teléfono
+- Verificación de cuentas de WhatsApp Business
+- Consulta de estado y información de usuario
+- Análisis de dispositivos vinculados
+- Información OSINT completa
+- Configuración de privacidad
 - Validación automática de formatos de número telefónico
 - Soporte para números internacionales (con código de país)
-- Interfaz en terminal con colores y banner estilo WhatsApp
+- Interfaz en terminal con menú interactivo y colores
 - Guardado automático de imágenes en formato JPG
 - Detección de perfiles sin foto de perfil o ocultos
 
@@ -35,7 +40,7 @@
 
 NOMBRE | KEY |
 | ------------------- |-------------- |
-| [Whatsapp OSINT](https://rapidapi.com/inutil-inutil-default/api/whatsapp-osint) |  🔑 (Necesario) |
+| [Whatsapp OSINT](https://rapidapi.com/inutil-inutil-default/api/whatsapp-osint) |  🔑 (Necesario) |
 
 - Elige el plan → [Basic](https://rapidapi.com/inutil-inutil-default/api/whatsapp-osint/pricing)
 - Copia tu **API Key**
@@ -75,11 +80,10 @@ pip install -r requirements.txt
 
 python3 whats_lookup.py
 
+- Selecciona una opción del menú (1-6)
 - Ingresa el número de teléfono con código de país (ej: 51987654321)
-
 - La herramienta validará el formato y enviará la consulta
-
-- La imagen se guardará automáticamente si está disponible
+- Los resultados se mostrarán según el tipo de consulta seleccionada
 
 <p align="center">
   <img src="assets/result.png" title="Resultados" alt="Resultados" width="600"/>
